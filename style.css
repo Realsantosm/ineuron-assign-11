@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
 * {
   margin: 0%;
   padding: 0%;
@@ -5,6 +7,8 @@
 
 body {
   padding-top: 20px;
+  font-family: Poppins, sans-serif;
+  box-sizing: border-box;
 }
 
 navbar {
@@ -36,7 +40,7 @@ li {
 }
 
 .list-menu li a:hover {
-    color:#07a0f3 ;
+  color: #07a0f3;
 }
 
 button {
@@ -54,4 +58,206 @@ button {
 button:hover {
   color: #000000;
   border-color: #000000;
+}
+
+.section-one {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 50px 0;
+}
+
+.section-heading {
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  line-height: 60px;
+}
+
+.section-img {
+  width: 500px;
+}
+
+.btn-same {
+  font-weight: 500;
+  font-size: 15px;
+  color: #ffffff;
+  background: linear-gradient(to right, #079cf3, #0066ff);
+  border: none;
+  outline: none;
+  border-radius: 7px;
+  box-shadow: 0px 7px 10px 5px rgb(0 102 255 / 15%);
+  cursor: pointer;
+}
+
+.btn-same:hover {
+  background: #0f64e3;
+}
+
+.btn-one {
+  margin-top: 80px;
+}
+
+/* second section styles */
+
+.btn-two {
+  margin-top: 80px;
+}
+
+/* Third section styles */
+
+.btn-three {
+  margin-top: 80px;
+}
+
+/*-------------------- Services Styles Here ------------------------- */
+
+.services-section {
+  margin: 100px 50px 0 50px;
+}
+
+.service-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.service-content h1 {
+  font-size: 40px;
+  color: #111;
+  font-weight: 700;
+  line-height: 50px;
+}
+
+.service-content p {
+  color: #757575;
+  font-size: 13px;
+  line-height: 20px;
+  width: 530px;
+}
+
+/* services List */
+
+.services-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 40px 20px;
+}
+
+.service-item {
+  width: 25%;
+  padding: 40px 20px;
+}
+
+.service-item img {
+  width: 50px;
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+.service-item h3 {
+  font-size: 22px;
+  color: #000000;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.service-item p {
+  color: #757575;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+/* --------------------Pricing Plan ------------------------------- */
+
+.package-box {
+  background: linear-gradient(to bottom, #08b8f7, #0465ea);
+  padding: 20px 10px;
+  text-align: center;
+}
+
+.pack-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.package-cards {
+  background-color: #ffffff;
+  padding: 40px 50px 50px 50px;
+  border-radius: 2rem;
+  margin: 20px 10px;
+  /* max-width: 90%; */
+  /* height: 100px; */
+}
+
+.package-list {
+  background-color: #ffffff;
+}
+
+.package-item .correct {
+  width: 28px;
+  height: 22px;
+}
+
+.package-item {
+  display: flex;
+  align-items: center;
+  line-height: 35px;
+}
+
+/* package-Heading-text */
+
+.package-heading {
+  font-size: 34px;
+  font-weight: bold;
+  color: bold;
+}
+
+.package-text-heading h2 {
+  font-size: 28px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.package-text-heading p {
+  font-size: 16px;
+  color: #757575;
+  padding-bottom: 30px;
+}
+
+.package-item p {
+  color: #757575;
+  font-weight: bold;
+  padding-left: 5px;
+}
+
+/* Package Bottom */
+
+.package-bottom {
+  padding: 40px 0 0 0;
+  font-size: 18px;
+}
+
+.pkg-btn {
+  margin-top: 20px;
+}
+
+/* ----------------Customer Section --------------------------- */
+
+.customer-heading {
+  text-align: center;
+}
+
+.customer-heading h1 {
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.customer-heading p {
+  padding: 20px 0;
+  font-size: 16px;
+    max-width: 70%;
+  color: #757575;
+  margin: auto;
 }

@@ -244,20 +244,174 @@ button:hover {
 }
 
 /* ----------------Customer Section --------------------------- */
-
-.customer-heading {
+.customer-section {
   text-align: center;
+  padding: 60px 0;
 }
 
-.customer-heading h1 {
+.customer-section .heading {
+  font-size: 38px;
+  font-weight: bold;
+}
+
+.customer-section .para {
+  color: #757575;
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 60%;
+  margin: auto;
+}
+
+.services-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+.customer-cards {
+  border: 1px solid #757575;
+  border-radius: 1.2rem;
+  padding: 60px 10px;
+  margin: 10px 10px;
+  max-width: 40%;
+  text-align: left;
+}
+
+.inside-cards {
+  max-width: 70%;
+  display: block;
+  margin: auto;
+  /* text-align: center; */
+}
+
+.inside-cards p {
+  /* color: #757575; */
+  font-size: 14px;
+}
+
+.person-names {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding: 20px 0 5px 0;
+}
+.person-job {
+  padding-left: 10px;
+}
+
+.person-job p {
+  color: #757575;
+}
+
+.person-job h4 {
+  font-size: larger;
+}
+
+
+/* -------------------Registration Section Styless--------------- */
+
+.register-heading-text {
   font-size: 34px;
   font-weight: bold;
 }
 
-.customer-heading p {
-  padding: 20px 0;
-  font-size: 16px;
-    max-width: 70%;
+.register-para-text {
+  font-size: 14px;
+  padding-top: 10px;
+
+}
+
+.section-register-texts {
+  color: #fff;
+}
+
+.section-register {
+  padding: 60px 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #0066ff;
+}
+
+.register-btn {
+  background-color: #0066ff;
+  color: #fff;
+  border-color: #fff;
+}
+
+
+/* ----------------Footer Styles  ----------- */
+
+.section-footer {
+  padding: 150px 0 90px 0;
+  display: flex;
+  justify-content: space-around;
   color: #757575;
-  margin: auto;
+  font-size: larger;
+}
+
+.logo-footer {
+  width: 95px;
+  padding-bottom: 6px;
+}
+
+.footer-section-one {
+  max-width: 35%;
+  /* margin: auto; */
+}
+
+.list-item-fst {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000000;
+  padding-bottom: 15px;
+}
+
+ .list-item-fst a {
+  text-decoration: none;
+  color: #111;
+}
+
+ .list-item-fst a:hover {
+  /* text-decoration: none; */
+  color: #0066ff;
+}
+
+.footer-social {
+  background: linear-gradient(to bottom, #08b8f7, #0465ea);
+  padding: 5px 5px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  /* margin-left: -10px; */
+  width: 20px;
+  border-radius: 50%;
+  margin: 0 5px;
+  position: relative;
+  right: 20px;
+}
+
+.footer-social a {
+  text-decoration: none;
+  color: #fff;
+
+}
+
+.footer-social a:hover {
+  color: #0066ff;
+}
+
+.list-item-social {
+  display: flex;
+}
+
+.list-item a {
+  text-decoration: none;
+  color: #757575;
+}
+
+.list-item a:hover {
+  color: #0066ff;
 }
